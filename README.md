@@ -46,8 +46,8 @@ If you want to contribute to Yanayi, you can do it by following these steps:
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b my-feature`.
-3. Save your changes and create a commit message telling you what you did: `git commit -m "feat: My new feature"`.
-4. Submit your changes: `git push origin my-feature`.
+3. Save your changes and create a commit message telling you what you did: `git commit -m "feat: My amazing feature"`.
+4. Don't forget to run `npm run build` and submit your changes: `git push origin my-feature`.
 5. I will review your pull request.
 
 ## License
