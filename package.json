@@ -1,0 +1,33 @@
+{
+  "name": "@vboechat/yanayi",
+  "version": "1.0.0",
+  "description": "Yanayi is a CLI program that shows you the weather for a given city",
+  "main": "./lib/yanayi.js",
+  "bin": {
+    "yanayi": "./lib/yanayi.js"
+  },
+  "scripts": {
+    "start": "ts-node ./src/yanayi.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "weather",
+    "cli-app",
+    "cli",
+    "vboechat",
+    "yanayi",
+    "typescript"
+  ],
+  "author": "Victor Ribeiro Boechat",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "commander": "^9.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@vboechat/eslint-config": "^1.1.4",
+    "eslint": "^8.30.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
