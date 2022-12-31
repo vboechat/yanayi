@@ -1,6 +1,6 @@
 {
   "name": "@vboechat/yanayi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yanayi is a CLI program that shows you the weather for a given city",
   "main": "./lib/yanayi.js",
   "bin": {
@@ -20,6 +20,11 @@
   ],
   "author": "Victor Ribeiro Boechat",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vboechat/yanayi.git"
+  },
+  "homepage": "https://github.com/vboechat/yanayi",
   "dependencies": {
     "axios": "^1.2.2",
     "commander": "^9.4.1"
