@@ -1,6 +1,6 @@
 {
   "name": "@vboechat/yanayi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yanayi is a CLI program that shows you the weather for a given city",
   "main": "./lib/yanayi.js",
   "bin": {
