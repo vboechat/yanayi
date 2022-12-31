@@ -13,7 +13,7 @@ class Main {
   }
 
   private setupProgram(program: Command) {
-    program.version("1.0.2").description("Yanayi, a weather cli app.");
+    program.version("1.0.3").description("Yanayi, a weather cli app.");
 
     program
       .command("city <city>")
