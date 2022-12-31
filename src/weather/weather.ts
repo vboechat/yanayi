@@ -23,7 +23,5 @@ export function getWeather(city: string) {
         }
       }
     })
-    .catch((error) => {
-      console.log(error);
-    });
+    .catch(() => console.log("City not found."));
 }
