@@ -30,7 +30,7 @@
     "commander": "^9.4.1"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.0.0",
     "@vboechat/eslint-config": "^1.1.4",
     "eslint": "^8.30.0",
     "ts-node": "^10.9.1",
